@@ -19,11 +19,11 @@ const Header = () => {
         <header className={`${styles.header} ${menuActive ? styles.active : ""}`}>
             <div className={styles.headerWrapper}>
                 <div className="">
-                    <a className={styles.btnLogo}>
-                        <a href="#"><img src={Logo} alt="LogoHeader" className={styles.logoHeader} /></a>
+                    <a href="#" className={styles.btnLogo}>
+                        <img src={Logo} alt="LogoHeader" className={styles.logoHeader}/>
                     </a>
                 </div>
-                <div className="">
+                <div className={styles.btnMobile}>
                     <button onClick={toggleMenu} id={styles.buttonMobile}>
                         <img src={menuActive ? iconCloser : iconBars} id={styles.menuIcons} alt=""/>
                     </button>

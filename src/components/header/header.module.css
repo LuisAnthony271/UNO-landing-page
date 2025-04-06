@@ -7,10 +7,21 @@
     display: none;
 }
 
-.btnLogo, #buttonMobile {
+.btnLogo {
     border: transparent;
     background: transparent;
 }
+
+#buttonMobile {
+    display: none;
+    border: transparent;
+    background: transparent;
+}
+
+.btnMobile {
+    display: none;
+}
+
 
 .headerWrapper {
     display: flex;
@@ -111,7 +122,7 @@
         display: none;
     }
 
-    #buttonMobile {
+    #buttonMobile, .btnMobile {
         display: block;
     }
 
