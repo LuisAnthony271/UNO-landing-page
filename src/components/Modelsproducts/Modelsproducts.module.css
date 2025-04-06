@@ -107,7 +107,7 @@ section {
 }
 .button a:hover {
   background-color: #ed1c24;
-  border: 2px #ed1c24;
+  border: 2px solid #ed1c24;
 }
 @media(max-width:600px){
 
