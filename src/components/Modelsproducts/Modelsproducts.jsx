@@ -20,11 +20,11 @@ export default function Modelsproducts() {
                     <p>UNO® Flip SIOC </p>
                     <p>R$ 80</p>
                 </div>
-                <div className={styles.row}></div>
-                <biv className={styles.boxPrice}>
+                {/* <div className={styles.row}></div> */}
+                <div className={styles.boxPrice}>
                     <p>Acaba em <span>01.34.45</span> </p>
                     <div className={styles.button}><a href="">Comprar</a></div>
-                </biv>
+                </div>
               </div>
               <div className={styles.card}>
                 <img className={styles.modelsImg} src={Img2} alt="" />
@@ -32,11 +32,11 @@ export default function Modelsproducts() {
                     <p>UNO® minimalista </p>
                     <p>R$ 80</p>
                 </div>
-                <div className={styles.row}></div>
-                <biv className={styles.boxPrice}>
+                {/* <div className={styles.row}></div> */}
+                <div className={styles.boxPrice}>
                     <p>Acaba em <span>01.34.45</span> </p>
                     <div className={styles.button}><a href="">Comprar</a></div>
-                </biv>
+                </div>
               </div>
               <div className={styles.card}>
                 <img className={styles.modelsImg} src={Img3} alt="" />
@@ -44,11 +44,11 @@ export default function Modelsproducts() {
                     <p>UNO®  Original </p>
                     <p>R$ 80</p>
                 </div>
-                <div className={styles.row}></div>
-                <biv className={styles.boxPrice}>
+                {/* <div className={styles.row}></div> */}
+                <div className={styles.boxPrice}>
                     <p>Acaba em <span>01.34.45</span> </p>
                     <div className={styles.button}><a href="">Comprar</a></div>
-                </biv>
+                </div>
               </div>
               <div className={styles.card}>
                 <img className={styles.modelsImg} src={Img4} alt="" />
@@ -56,11 +56,11 @@ export default function Modelsproducts() {
                     <p>UNO® Dos </p>
                     <p>R$ 80</p>
                 </div>
-                <div className={styles.row}></div>
-                <biv className={styles.boxPrice}>
+                {/* <div className={styles.row}></div> */}
+                <div className={styles.boxPrice}>
                     <p>Acaba em <span>01.34.45</span> </p>
                     <div className={styles.button}><a href="">Comprar</a></div>
-                </biv>
+                </div>
               </div>
             </div>
           </div>
