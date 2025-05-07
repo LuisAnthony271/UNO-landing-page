@@ -1,0 +1,18 @@
+.signUp {
+    color: var(--white);
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    line-height: 22px;
+    text-transform: uppercase;
+    transition: var(--transition);
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 0.3rem;
+}
+
+.signUp:hover {
+    color: var(--red);
+    text-decoration-color: var(--red);
+}

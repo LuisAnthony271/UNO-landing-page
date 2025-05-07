@@ -1,0 +1,231 @@
+.hero {
+    background-color: (--darkPurple);
+}
+
+.heroWrapper{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 10rem;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.heroContent span{
+    font-weight: 600;
+}
+
+.heroContent h2{
+    color: var(--color-white);
+    font-size: 50px;
+    font-weight: 300;
+    max-width: 20ch;
+    /* padding-bottom: 20px; */
+    line-height: 100%
+}
+
+.heroContent p{
+    color: var(--color-white);
+    max-width: 40ch;
+    font-size: 24px;
+}
+
+.btnWrapper{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    cursor: pointer;
+    padding-top: 12px;
+}
+
+/* .btnHero{
+    
+} */
+
+/* .aHero {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1;
+    color: var(--color-white);
+    background-color: var(--color-red);
+    border: 2px solid var(--color-red) ;
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 10px 40px;
+} */
+
+.aHero1 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1;
+    color: var(--color-white);
+    background-color: var(--color-red);
+    border: 2px solid var(--color-red) ;
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 12px 40px;
+}
+
+.aHero2 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -1;
+    color: var(--color-white);
+    background-color: transparent;
+    border: 2px solid var(--white) ;
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 12px 22px;
+}
+
+.aHero1:hover {
+    color: var(--color-black);
+    background-color: var(--white);
+    border: 2px solid var(--white);
+}
+
+.aHero2:hover {
+    color: var(--color-black);
+    background-color: var(--white);
+    border: 2px solid var(--white);
+}
+
+/* .buttonHero{
+    color: var(--color-white);
+    background-color: var( --color-black);
+    border: 2px solid var(--color-white);
+    border-radius: 10px;
+    padding: 10px 40px;
+} */
+
+/* .btnHero, .buttonHero {
+    transition: var(--transition);
+} */
+
+/* .btnHero:hover{
+    color: var(--color-black);
+    background-color: var(--color-white);
+    border: 2px solid var(--color-white);
+} */
+
+/* .buttonHero:hover{
+    color: var(--color-black);
+    background-color: var(--color-white);
+    border: 2px solid var(--color-white);
+} */
+
+.imgHero{
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.modelsImg {
+    display: block;
+    position: relative;
+    z-index: -1;
+}
+
+
+.imgHero::before{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: 0;
+    right: -50px;
+    border-radius: 99px;
+    margin-right: 80px;
+    background: #2f80ed;
+    filter: blur(70px);
+    z-index: -1;
+}
+
+.imgHero::after{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 0;
+    left: -25px;
+    border-radius: 99px;
+    margin-right: 80px;
+    background: #eb5757cc;
+    filter: blur(70px);
+    z-index: -2;
+}
+
+/* MOBILE  */
+
+@media(max-width: 1000px){
+
+    .heroWrapper{
+        padding: 1rem 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heroContent {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heroContent h2{
+        /* padding: 0 2rem; */
+        text-align: center;
+        font-size: 2.5rem;
+        max-width: 20ch;
+        line-height: 50px;
+    }
+
+    .heroContent p{
+        /* padding: 1rem; */
+        font-size: 1rem;
+        /* max-width: 30ch; */
+        text-align: justify;
+
+    }
+
+    .btnHero{
+        padding:10px;
+    }
+
+    .btnWrapper{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .buttonHero{
+        padding: 10px;
+    }
+
+    .imgHero {
+       padding: 2rem 1rem;
+    }
+
+
+    .modelsImg {
+        width: 260px;
+        height: auto;
+        padding:2rem 0;
+        max-width: 500px;
+        height: auto;
+        z-index: -1;
+    }
+
+    .aHero1 {
+        padding: 12px 19px;
+    }
+
+    .aHero2 {
+        padding: 12px 14px;
+    }
+
+
+}

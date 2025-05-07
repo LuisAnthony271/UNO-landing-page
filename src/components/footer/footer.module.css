@@ -1,0 +1,92 @@
+.Footer {
+  background: #17161e;
+}
+
+.wrapperFooter {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.contentFooter {
+  display: flex;
+  font-size: 16px;
+  font-weight: 300;
+  padding-bottom: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contentFooter p {
+  max-width: 43ch;
+  color: #828282;
+}
+.subscribeFooter p {
+  color: white;
+  max-width: 50ch;
+}
+.emailFooter {
+  margin: 15px auto 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #282828;
+  border-radius: 10px;
+  padding: 0 4px 0 10px;
+  height: 50px;
+  max-width: 410px;
+  align-items: center;
+}
+
+.emailFooter input {
+  background-color: #282828;
+  border: none;
+  width: 405;
+}
+
+.Copy {
+  border-top: 1px solid #828282;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Copy p {
+  color: #828282;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.imgCopy {
+  display: flex;
+  gap: 15px;
+}
+
+.divP {
+  display: flex;
+  gap: 5px;
+}
+
+@media (max-width: 1000px) {
+
+  .wrapperFooter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 1rem;
+  }
+  .contentFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .Copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .emailFooter {
+    max-width: 330px;
+  }
+}

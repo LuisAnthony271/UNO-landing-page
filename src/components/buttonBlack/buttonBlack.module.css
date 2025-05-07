@@ -1,0 +1,14 @@
+.WrapperButtonBlack a{
+    color: #BCBCBC;
+    border: 2px solid  #BCBCBC;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius:10px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.WrapperButtonBlack a:hover{
+    background: #BCBCBC;
+    color: black;
+}

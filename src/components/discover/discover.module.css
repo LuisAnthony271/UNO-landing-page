@@ -1,0 +1,148 @@
+.discover{
+    padding: 0 12px 60px 12px;
+}
+
+.discoverWrapper{
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.discoverContent{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 84px;
+}
+
+.discoverContent h2{
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--color-white);
+}
+
+.discoverContent a{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    padding: 10px 40px;
+    background-color: #ED1C24;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.discoverContent a:hover{
+    color: #ED1C24;
+    background-color: white;
+}
+
+.discoverRow{
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-between;
+    gap: 29px;
+}
+
+.discoverRow img{
+    max-width: 298px;
+    max-height: 313px;
+    width: 100%;
+}
+
+.cardImg{
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.cardImg:hover{
+    transform: scaleX(1.05) scaleY(1.05);
+}
+
+.cardTitleBuy{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0 16px 0;
+}
+
+.cardTitle{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cardTitlePrice{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cardBuy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid white;
+    padding-top: 16px;
+}
+
+.cardBuy h2{
+    color: #BCBCBC;
+    font-size: 16px;
+    font-weight: 400;
+}
+.cardBuy span{
+    color: white;
+}
+
+.cardBuy a{
+    color: white;
+    padding: 4px 16px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.cardBuy a:hover{
+    border: 1px solid #ed1c24;
+    background-color: #ED1C24;
+}
+
+.discoverMore{
+    padding: 80px 0 200px 0;
+    text-align: center;
+}
+
+.discoverMore a{
+    padding: 12px 40px;
+    border: 2px solid #fff;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.discoverMore a:hover{
+    color: black;
+    background-color: white;
+}
+
+@media(max-width: 1000px){
+
+    .discoverContent {
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .discoverMore{
+        padding: 80px 0 100px 0;
+    }
+
+    .discoverContent h2{
+        font-size: 32px;
+    }
+
+    .discoverRow{
+        flex-direction: column;
+        align-items: center;
+    }
+    .discoverCard{
+        padding-bottom: 20px;
+    }
+}

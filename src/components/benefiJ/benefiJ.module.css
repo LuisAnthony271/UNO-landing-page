@@ -1,0 +1,145 @@
+.benefitJ {
+  align-items: center;
+  background: var(--darkPurple);
+}
+
+.benefiJWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10rem 0 7rem;
+  max-width: var(--max-width);
+}
+
+.benefiJWrapper h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  color: #fff;
+  padding-bottom: 16px;
+}
+
+.benefiJWrapper p {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 200;
+}
+
+/* .benefiJIconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2rem;
+  text-align: center;
+  gap: 7rem;
+} */
+
+.benefiJIconWrapper p {
+  color: #fff;
+  max-width: 20ch;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 24px;
+}
+
+.benefiJIconWrapper img {
+  border-radius: 26px;
+  padding: 50px;
+  background: #ffffff17;
+  box-shadow: -3.013px 3.013px 3.013px #ffffff63 inset,
+    2.01px -2.01px 20px #d6d6d62b inset;
+  -webkit-backdrop-filter: blur(37.21466827392578px);
+  backdrop-filter: blur(37.21466827392578px);
+}
+
+.benefiJWrapper::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(94deg, #9b51e0 2.84%, #3081ed 99.18%);
+  opacity: 0.4;
+  transform: translateY(50%);
+  max-width: var(--max-width);
+  width: 200vh;
+  height: 450px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  border-radius: 99px;
+  filter: blur(100px);
+  z-index: 1;
+}
+
+.benefiJIconWrapper {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.First, .Second {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.First p, .Second p {
+  display: flex;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+
+}
+
+.boxIconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+@media (max-width: 1000px) {
+
+  .benefitJ {
+    padding: 0 1rem;
+  }
+
+  .benefiJWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .benefiJIconWrapper {
+    flex-direction: column;
+    gap: 26px;
+  }
+  .benefiJWrapper h2 {
+    text-align: center;
+  }
+  .benefiJWrapper p {
+    text-align: center;
+    max-width: 35ch;
+  }
+
+  .First, .Second {
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .First p, .Second p {
+    max-width: 15ch;
+    font-size: 16px;
+  }
+
+  .benefiJWrapper::before {
+    width: 40vw;
+    height: 80vh;
+  }
+}
